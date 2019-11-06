@@ -14,4 +14,4 @@ IEEE Access
 
 ## Results
 
-<p align="center"><img src='https://github.com/tjqansthd/GDN-Pytorch/edit/master/example/ex1.png' width=600></p>
+<p align="center"><img src='https://github.com/tjqansthd/GDN-Pytorch/tree/master/example/ex1.png' width=600></p>
