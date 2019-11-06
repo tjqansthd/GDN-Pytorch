@@ -4,7 +4,7 @@ This repository is a Pytorch implementation of the paper ["Depth Estimation From
 Codes will be coming soon!
 
 <p align="center"><img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/ex1.png' width=800></p>
-Minsoo Song and [Wonjun Kim](https://sites.google.com/site/kudcvlab)  
+Minsoo Song and [Wonjun Kim](https://sites.google.com/site/kudcvlab)   
 IEEE Access
 
 ## Requirements
@@ -17,7 +17,7 @@ IEEE Access
 
 ## Video
 <img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/rgb1.gif' width=400>   <img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/out2.gif' width=400>  
-                    < RGB input >                       < Estimated depth map >
+                    RGB input                      Estimated depth map
 
 ## Results
 <p align="center"><img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/result1.png' width=1000></p>
