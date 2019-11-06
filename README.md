@@ -4,7 +4,8 @@ This repository is a Pytorch implementation of the paper ["Depth Estimation From
 Codes will be coming soon!  
 
 <p align="center"><img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/ex1.png' width=800></p>
-Minsoo Song and ["Wonjun Kim"](https://sites.google.com/site/kudcvlab)
+
+Minsoo Song and [Wonjun Kim](https://sites.google.com/site/kudcvlab)  
 IEEE Access
 
 ## Requirements
