@@ -25,6 +25,5 @@ IEEE Access
 
 <p align="center"><img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/result2.png' width=1000></p>
 
-<p align="center"><img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/result3.png' width=1000></p>
-
-1st rows: input RGB color images. 2nd rows: ground truth. 3rd rows: Eigen et al. 4th rows: Godard et al. 5th rows: Kuznietsov et al. 6th  rows: Ours
+<p align="center"><img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/result3.png' width=1000></p>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RGB input&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ground truth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eigen et al.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Godard et al.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kuznietsov et al.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ours
