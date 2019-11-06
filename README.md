@@ -16,7 +16,7 @@ IEEE Access
 * cuDNN (if CUDA available)
 
 ## Video
-<img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/rgb1.gif' width=500><img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/out2.gif' width=500>
+<img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/rgb1.gif' width=400><img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/out2.gif' width=400>
 
 ## Results
 <p align="center"><img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/result1.png' width=1000></p>
