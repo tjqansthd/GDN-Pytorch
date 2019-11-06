@@ -1,7 +1,7 @@
 # GDN-Pytorch
 This repository is a Pytorch implementation of the paper ["Depth Estimation From a Single Image Using Guided Deep Network"](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8854079)
 
-Codes will be comming soon!
+Codes will be coming soon!
 
 <p align="center"><img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/ex1.png' width=800></p>
 Minsoo Song and [Wonjun Kim](https://sites.google.com/site/kudcvlab)  
@@ -14,6 +14,9 @@ IEEE Access
 * Ubuntu 16.04
 * CUDA 8 (if CUDA available)
 * cuDNN (if CUDA available)
+
+## Video
+<img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/rgb1.gif' width=500><img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/out1.gif' width=500>
 
 ## Results
 <p align="center"><img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/result1.png' width=1000></p>
