@@ -26,8 +26,8 @@ IEEE Access
 <p align="center"><img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/result2.png' width=1000></p>
 
 <p align="center"><img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/result3.png' width=1000></p>  
-1st  row: RGB input  
 
+1st &nbsp;row: RGB input  
 2nd row: Ground truth  
 3rd row: Eigen et al.  
 4th row: Godard et al.  
