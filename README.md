@@ -17,7 +17,7 @@ IEEE Access
 
 ## Video
 <img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/rgb1.gif' width=400>   <img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/out2.gif' width=400>  
-<<RGB input>>                       #<Estimated depth map>
+<'RGB input'>                       #<Estimated depth map>
 
 ## Results
 <p align="center"><img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/result1.png' width=1000></p>
