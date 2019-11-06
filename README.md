@@ -2,6 +2,7 @@
 This repository is a Pytorch implementation of the paper ["Depth Estimation From a Single Image Using Guided Deep Network"](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8854079)
 
 Minsoo Song and [Wonjun Kim](https://sites.google.com/site/kudcvlab)
+
 IEEE Access
 
 ## Requirements
