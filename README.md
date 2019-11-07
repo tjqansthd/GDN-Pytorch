@@ -8,6 +8,8 @@ Codes will be coming soon!
 Minsoo Song and [Wonjun Kim](https://sites.google.com/site/kudcvlab)  
 IEEE Access
 
+## Model architecture
+<p align="center"><img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/model_architecture.png' width=800></p>
 ## Requirements
 
 * Python >= 3.5
