@@ -44,5 +44,12 @@ You can download pretrained color-to-depth model
 ## Demo (Single Image Prediction)
 Demo Command Line:
 ```bash
-python depth_extract.py --gpu_num 0,1 --model_dir your/model/path/model.pkl ## gpu_num is index of your gpu list
+############### Example of argument usage #####################
+python depth_extract.py --gpu_num 0,1 --model_dir your/model/path/model.pkl 
+## gpu_num is index of your gpu list.        ex) os.environ["CUDA_VISIBLE_DEVICES"]= args.gpu_num
 ```
+
+Try it your own image!
+1. Insert your example images(png, jpg) in GDN-pytorch/example/demo_input  
+(Since our model was trained at 128 x 416 scale, we recommend resizing the images to the corresponding proportions before running the demo.)
+2. Specify the model directory, then run the demo. 
