@@ -50,9 +50,15 @@ python depth_extract.py --gpu_num 0,1 --model_dir your/model/path/model.pkl
 ```
 
 Try it on your own image!
-1. Insert your example images(png, jpg) in GDN-pytorch/example/demo_input  
+1. Insert your example images(png, jpg) in ### GDN-pytorch/example/demo_input  
 (Since our model was trained at 128 x 416 scale, we recommend resizing the images to the corresponding scale before running the demo.)
 2. Specify the model directory, then run the demo. 
+
+## Dataset
+[KITTI](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction)
+Official kitti dataset is available on the link
+
+We prepared the training data by referring to the method on [this link](https://github.com/josephdanielchang/unsupervised_learning_of_depth_PyTorch).
 
 ## Training
 ### Training method  
@@ -60,9 +66,23 @@ Depth_to_depth network training -> Color_to_depth network training(using pretrai
 
 * Depth_to_depth network training
 ```bash
-python AE_main_final_new_color_4_gen2.py ./your/dataset/path --epochs 50 --batch_size 20 --gpu_num 0,1,2,3 --mode DtoD
+python GDN_main.py ./your/dataset/path --epochs 50 --batch_size 20 --gpu_num 0,1,2,3 --mode DtoD
 ```
 * Color_to_depth network training
 ```bash
-python depth_extract.py ./your/dataset/path --epochs 50 --batch_size 20 --model_dir your/pretrained/depth_to_depth/model/path --gpu_num 0,1,2,3 --mode RtoD
+python GDN_main.py ./your/dataset/path --epochs 50 --batch_size 20 --model_dir /your/pretrained/depth_to_depth/model/path --gpu_num 0,1,2,3 --mode RtoD
 ```
+gpu_num is index of your gpu list. 
+
+## Testing (Eigen split)
+* Depth_to_depth network testing
+```bash
+python GDN_main.py /mnt/MS/AEdepth/data_backup --epochs 0 --batch_size 8 --evaluate --real_test --gpu_num 0,1,2,3 --model_dir /your/pretrained/depth_to_depth/model/path --mode DtoD_test --img_save
+```
+
+* Color_to_depth network testing
+```bash
+python GDN_main.py /mnt/MS/AEdepth/data_backup --epochs 0 --batch_size 8 --evaluate --real_test --gpu_num 0,1,2,3 --RtoD_model_dir /your/pretrained/color_to_depth/model/path --mode RtoD_test --img_save
+```
+gpu_num is index of your gpu list.
+if you want save your test result, using '--img_save
