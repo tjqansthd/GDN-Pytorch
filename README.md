@@ -55,7 +55,7 @@ Try it on your own image!
 2. Specify the model directory, then run the demo. 
 
 ## Training
-# Training method  
+### Training method  
 Depth_to_depth network training -> Color_to_depth network training(using pretrained depth_to_depth network)
 
 * Depth_to_depth network training
