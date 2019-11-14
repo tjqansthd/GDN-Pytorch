@@ -55,7 +55,7 @@ Try it on your own image!
 2. Specify the model directory, then run the demo. 
 
 ## Dataset
-[KITTI](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction)
+[KITTI](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction)  
 Official kitti dataset is available on the link
 
 We prepared the training data by referring to the method on [this link](https://github.com/josephdanielchang/unsupervised_learning_of_depth_PyTorch).
@@ -84,5 +84,5 @@ python GDN_main.py /mnt/MS/AEdepth/data_backup --epochs 0 --batch_size 8 --evalu
 ```bash
 python GDN_main.py /mnt/MS/AEdepth/data_backup --epochs 0 --batch_size 8 --evaluate --real_test --gpu_num 0,1,2,3 --RtoD_model_dir /your/pretrained/color_to_depth/model/path --mode RtoD_test --img_save
 ```
-gpu_num is index of your gpu list.
+gpu_num is index of your gpu list.  
 if you want save your test result, using '--img_save
