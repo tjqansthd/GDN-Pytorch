@@ -36,3 +36,13 @@ Codes will be coming soon!
 4th row: Godard et al.  
 5th row: Kuznietsov et al.  
 6th row: Ours
+
+## Pretrained models
+You can download pretrained color-to-depth model
+* [Trained with KITTI](https://drive.google.com/drive/folders/10wFzSDdRK7nlNZXhSP3GGWuWFK_Ap7ur?usp=sharing)
+
+## Demo (Single Image Prediction)
+Demo Command Line:
+```bash
+python depth_extract.py --gpu_num 0,1 --model_dir your/model/path/model.pkl ## gpu_num is index of your gpu list
+```
