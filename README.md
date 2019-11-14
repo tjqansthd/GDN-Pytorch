@@ -49,7 +49,20 @@ python depth_extract.py --gpu_num 0,1 --model_dir your/model/path/model.pkl
 ## gpu_num is index of your gpu list.        ex) os.environ["CUDA_VISIBLE_DEVICES"]= args.gpu_num
 ```
 
-Try it your own image!
+Try it on your own image!
 1. Insert your example images(png, jpg) in GDN-pytorch/example/demo_input  
-(Since our model was trained at 128 x 416 scale, we recommend resizing the images to the corresponding proportions before running the demo.)
+(Since our model was trained at 128 x 416 scale, we recommend resizing the images to the corresponding scale before running the demo.)
 2. Specify the model directory, then run the demo. 
+
+## Training
+- Training method
+Depth_to_depth network training -> Color_to_depth network training(using pretrained depth_to_depth network)
+
+* Depth_to_depth network training
+```bash
+python AE_main_final_new_color_4_gen2.py ./your/dataset/path --epochs 50 --batch_size 20 --gpu_num 0,1,2,3 --mode DtoD
+```
+* Color_to_depth network training
+```bash
+python depth_extract.py ./your/dataset/path --epochs 50 --batch_size 20 --model_dir your/pretrained/depth_to_depth/model/path --gpu_num 0,1,2,3 --mode RtoD
+```
