@@ -68,7 +68,7 @@ python depth_extract.py --gpu_num 0,1 --model_dir your/model/path/model.pkl
 2. Specify the model directory, then run the demo. 
 
 ## Dataset
-*[KITTI](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction)  
+* [KITTI](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction)  
 Official kitti dataset is available on the link.
 
 We prepared the training data by referring to the method on [this link](https://github.com/josephdanielchang/unsupervised_learning_of_depth_PyTorch).
