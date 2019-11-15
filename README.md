@@ -4,7 +4,8 @@ This repository is a Pytorch implementation of the paper [**"Depth Estimation Fr
 Minsoo Song and [Wonjun Kim](https://sites.google.com/site/kudcvlab)  
 IEEE Access
 
-When using this code in your research, please cite the following paper:
+When using this code in your research, please cite the following paper:  
+
 Minsoo Song and Wonjun Kim, **"Depth estimation from a single image using guided deep network,"** **IEEE Access**, vol. 7, pp. 142595-142606, Dec. 2019.  
 
 ```
