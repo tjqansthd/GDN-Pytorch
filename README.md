@@ -59,7 +59,7 @@ Demo Command Line:
 ```bash
 ############### Example of argument usage #####################
 python depth_extract.py --gpu_num 0,1 --model_dir your/model/path/model.pkl 
-## gpu_num is index of your gpu list.        ex) os.environ["CUDA_VISIBLE_DEVICES"]= args.gpu_num
+## '--gpu_num' argument is index of your available gpu list.        ex) os.environ["CUDA_VISIBLE_DEVICES"]= args.gpu_num
 ```
 
 ### Try it on your own image!
@@ -85,7 +85,7 @@ python GDN_main.py ./your/dataset/path --epochs 50 --batch_size 20 --gpu_num 0,1
 ```bash
 python GDN_main.py ./your/dataset/path --epochs 50 --batch_size 20 --model_dir /your/pretrained/depth_to_depth/model/path --gpu_num 0,1,2,3 --mode RtoD
 ```
-gpu_num is index of your gpu list. 
+`--gpu_num` is index of your available gpu list. 
 
 ## Testing (Eigen split)
 * Depth_to_depth network testing
@@ -97,5 +97,5 @@ python GDN_main.py /mnt/MS/AEdepth/data_backup --epochs 0 --batch_size 8 --evalu
 ```bash
 python GDN_main.py /mnt/MS/AEdepth/data_backup --epochs 0 --batch_size 8 --evaluate --real_test --gpu_num 0,1,2,3 --RtoD_model_dir /your/pretrained/color_to_depth/model/path --mode RtoD_test --img_save
 ```
-gpu_num is index of your gpu list.  
+`--gpu_num` is index of your available gpu list.  
 if you want save your test result, using `--img_save`
