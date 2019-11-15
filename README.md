@@ -1,10 +1,22 @@
 # GDN-Pytorch
-This repository is a Pytorch implementation of the paper ["Depth Estimation From a Single Image Using Guided Deep Network"](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8854079)
+This repository is a Pytorch implementation of the paper [**"Depth Estimation From a Single Image Using Guided Deep Network"**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8854079)
 
 Minsoo Song and [Wonjun Kim](https://sites.google.com/site/kudcvlab)  
 IEEE Access
 
-Codes will be coming soon!  
+When using this code in your research, please cite the following paper:
+Minsoo Song and Wonjun Kim, **"Depth estimation from a single image using guided deep network,"** **IEEE Access**, vol. 7, pp. 142595-142606, Dec. 2019.  
+
+```
+@ARTICLE{8854079,
+author={M. {Song} and W. {Kim}},
+journal={IEEE Access},
+title={Depth Estimation From a Single Image Using Guided Deep Network},
+year={2019},
+volume={7},
+pages={142595-142606},
+doi={10.1109/ACCESS.2019.2944937},}
+```
 
 <p align="center"><img src='https://github.com/tjqansthd/GDN-Pytorch/blob/master/example/ex.png' width=800></p>  
 
@@ -55,7 +67,7 @@ python depth_extract.py --gpu_num 0,1 --model_dir your/model/path/model.pkl
 2. Specify the model directory, then run the demo. 
 
 ## Dataset
-[KITTI](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction)  
+*[KITTI](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction)  
 Official kitti dataset is available on the link.
 
 We prepared the training data by referring to the method on [this link](https://github.com/josephdanielchang/unsupervised_learning_of_depth_PyTorch).
@@ -85,4 +97,4 @@ python GDN_main.py /mnt/MS/AEdepth/data_backup --epochs 0 --batch_size 8 --evalu
 python GDN_main.py /mnt/MS/AEdepth/data_backup --epochs 0 --batch_size 8 --evaluate --real_test --gpu_num 0,1,2,3 --RtoD_model_dir /your/pretrained/color_to_depth/model/path --mode RtoD_test --img_save
 ```
 gpu_num is index of your gpu list.  
-if you want save your test result, using '--img_save'
+if you want save your test result, using `--img_save`
