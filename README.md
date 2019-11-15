@@ -63,7 +63,7 @@ python depth_extract.py --gpu_num 0,1 --model_dir your/model/path/model.pkl
 ```
 
 ### Try it on your own image!
-1. Insert your example images(png, jpg) in ### GDN-pytorch/example/demo_input  
+1. Insert your example images(png, jpg) in **GDN-pytorch/example/demo_input**   
 (Since our model was trained at 128 x 416 scale, we recommend resizing the images to the corresponding scale before running the demo.)
 2. Specify the model directory, then run the demo. 
 
